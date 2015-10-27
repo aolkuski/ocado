@@ -1,0 +1,16 @@
+/target
+.classpath
+.project
+/bin
+/target
+/.idea
+._bin*
+/.settings
+/doc
+*.html
+.idea/*
+/.idea/*
+*.eml
+*.ipr
+*.iws
+*.iml
