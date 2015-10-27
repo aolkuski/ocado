@@ -1,0 +1,17 @@
+To setup this project, all that is needed is downloading the sources, and running 1 command:
+mvn clean install test
+
+One additional setting that might be required is browser bin localization, which should be provided correctly in this file:
+src/main/resources/Beans.xml --> driverConfig/binaryLocation
+
+Best results will be acquired on ESR channel of Firefox - due to rare updates, WebDriver is almost always supporting current ESR version of Firefox.
+
+Only 1 of those 3 scenarios is implemented. Classes for next 2 are prepared, however either scenario was not written clearly or those 2 tests are not meant to finish successfully.
+As a logged out user, I'm unable to add anything to the basket, because application is asking me to log back in.
+
+
+
+PS - I had some other ideas, how to make this implementation betterbinaryLocation (like tests parametrization, screenshots on failures or usign junit Rules instead of BeforeClass/AfterClass annotations), however that would require more time, which I've ran out of.
+
+
+aolkuski
